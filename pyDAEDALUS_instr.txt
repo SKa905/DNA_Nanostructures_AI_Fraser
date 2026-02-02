@@ -1,0 +1,18 @@
+TO USE the pyDAEDALUS program:
+
+- There are two parts: 
+  1) A "back-engine" program that does all the actual work. It is located in
+     pyDAEDALUS/pyDAEDALUS/DAEDserve.py --> note that this is a python file.
+     
+     YOU MUST RUN THIS PROGRAM FIRST USING python _____ (run this in the folder
+     you want the outputs to be in) --> this will create a server that can 
+     then be accessed
+
+  2) An index.html --> Must be accessed thru your File Explorer, in the 
+     pyDAEDALUS/pyDAEDALUS/ folder. This is the GUI interface for the program,
+     where you will submit all your actual info. Then it'll communicate to the
+     running DAEDserve.py server (which should already be running in your
+     WSL terminal) and make some outputs for you in your current directory.
+
+
+
