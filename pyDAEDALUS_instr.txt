@@ -14,5 +14,7 @@ TO USE the pyDAEDALUS program:
      running DAEDserve.py server (which should already be running in your
      WSL terminal) and make some outputs for you in your current directory.
 
+- Alternatively you can have a python file run instead of putting things in the index.html 
+  GUI, but either way you have to have the DAEDserve.py program running.
 
 
