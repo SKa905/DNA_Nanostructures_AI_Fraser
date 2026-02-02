@@ -17,7 +17,7 @@ multicall = xmlrpclib.MultiCall(proxy)
 #	sequenceFile: Path to sequence file
 #
 
-ply_dir = "/mnt/c/users/shrik/Dr. Fraser Research/pyDAEDALUS/PLY_Files" # path to directory containing input geometries
+ply_dir = "/workspaces/DNA_Nanostructures_AI_Fraser/pyDAEDALUS/PLY_Files" # path to directory containing input geometries
 
 for geom in os.listdir(ply_dir):
     ply = os.path.join(ply_dir, geom) # path to specific geometry file
